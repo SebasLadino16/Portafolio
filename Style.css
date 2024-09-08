@@ -458,14 +458,14 @@ html{
 }
 /* Seccion Portfolio */
 .portfolio{
-    background-color: #1e2326;
+    background-color: #252a2e;
     color: #fff;
     padding: 50px 20px;
 }
 .portfolio .contenido-seccion{
-    max-width: 1400px;
+    max-width: 1100px;
     margin: auto;
-    max-height: 1500px;
+    /* max-height: 1500px; */
 }
 .portfolio h2{
     font-size: 48px;
@@ -480,14 +480,14 @@ html{
 }
 .portfolio .galeria .proyecto{
     position:relative;
-    max-width: 640px;
+    max-width: 340px;
     height:fit-content;
     margin: 10px;
     cursor: pointer;
 }
 .portfolio .galeria .proyecto img{
-    height: 400px;
-    width: 640px;
+    /* height: 300px; */
+    width: 100%;
     display: block;
 }
 .portfolio .galeria .proyecto .overlay{
@@ -582,19 +582,20 @@ html{
     width: 100%;
 }
 .contacto .col img{
-    position:relative; 
-    width: 130%;
-    height: 90%;
+    /* position:relative;  */
+    width: 100%;
+    height: 80%;
     overflow: hidden;
 }
 .contacto .col .info{
     position: absolute;
-    top: 45%;
-    background-color: #313b42;
+    top: 40%;
+    background-color: #252a2e;
     padding: 20px;
     /* height: 160px; */
-    max-width: 350px;
-    left: 60%;
+    width: 300px;
+    /* width: fit-content; */
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{
@@ -651,7 +652,7 @@ footer .arriba{
     nav{
         display: none;
     }
-    nav-responsive{
+    .nav-responsive{
         display: block;
     }
     nav.responsive{
@@ -670,7 +671,7 @@ footer .arriba{
         padding: 10px 0;
     }
 }
-@media screen and (max-width:700px){
+ @media screen and (max-width:700px){
     .sobremi .fila{
         display:block;
     }
@@ -712,9 +713,6 @@ footer .arriba{
         width: 100%;
         
     }
-    /* .contacto .col img{
-        width: 130%;
-    } */
-}
+ }
     
 

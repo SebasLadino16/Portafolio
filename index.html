@@ -16,15 +16,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portafolio">PORTAFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -34,7 +34,7 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/Mi_foto_circular.png" alt="">
+                <img src="img/Mi_foto.jpg" alt="">
             </div>
             <h1>Sebastian Ladino</h1>
             <h2>Estudiante Full Stack - Estudiante Desarrolo De Software</h2>
@@ -298,19 +298,19 @@
         </div>
     </section>
     <!-- Sección Portafolio -->
-    <section id="portafolio" class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTAFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/imag4.jpeg" alt="">
+                    <img src="img/Fin2.jpeg" alt="">
                     <div class="overlay">
                         <h3>Escena</h3>
                         <p>Mario</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/Imag5.jpeg" alt="">
+                    <img src="img/Fin1.jpeg" alt="">
                     <div class="overlay">
                         <h3>Sprites</h3>
                         <p>Mario</p>
@@ -331,9 +331,7 @@
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Número telefónico">
                     <input type="text" placeholder="Correo electronico">
-                    <input type="text" placeholder="País/Ciudad">
                     <input type="text" placeholder="Tema">
-                    <input type="text" placeholder="Nombre">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button>
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
@@ -342,7 +340,7 @@
                 </div>
                 <!-- Contacto -->
                 <div class="col">
-                    <img src="img/MEdellín.png" alt="">
+                    <img src="img/Medellín 2.png" alt="">
                     <div class="info">
                         <ul>
                             <li>
@@ -351,11 +349,11 @@
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile"></i>
-                                Contactame: +57 3053163584
+                                +57 3053163584
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
-                                Email: Sebas.ladino1016@gmail.com
+                                Sebas.ladino1016@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -376,6 +374,7 @@
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
+    <script src="script.js"></script>
   
 </body>
 </html>
